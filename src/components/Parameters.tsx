@@ -70,7 +70,7 @@ const serviceList: ServiceProps[] = [
 
 export const Parameters = () => {
   return (
-    <section className="container py-24 sm:py-32" id="features">
+    <section className="container py-8 sm:py-32" id="features">
       <div className="gap-8 place-items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-center">
@@ -93,13 +93,16 @@ export const Parameters = () => {
                   className="transition-all duration-300 hover:shadow-lg hover:shadow-primary/25"
                 >
                   <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
-                    <div className="mt-1 bg-primary text-black p-1 rounded-sm">
+                    <span className="hidden md:inline mt-1 bg-primary text-black p-1 rounded-sm">
                       {icon}
-                    </div>
+                    </span>
                     <div>
-                      <CardTitle>
+                      <CardTitle className="flex items-center gap-2 flex-wrap">
+                        <span className="mt-1 mr-2 bg-primary text-black p-1 rounded-sm md:hidden inline">
+                          {icon}
+                        </span>
                         {title}{" "}
-                        <span className="block sm:inline mt-2 sm:mt-0">
+                        <span className="sm:inline">
                           (
                           <span className="bg-muted px-1.5 py-1 rounded font-mono text-base">
                             {parameter}

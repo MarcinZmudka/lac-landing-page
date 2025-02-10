@@ -1,9 +1,9 @@
 export const Created = () => {
   return (
-    <section className="container py-24 sm:py-32">
+    <section className="container py-8">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-center">
-          <p className="text-sm font-semibold tracking-wider mb-4 ">
+          <p className="text-sm font-semibold tracking-wider mb-4">
             CREATED BY
           </p>
           <a href="https://brainhub.eu" target="_blank">

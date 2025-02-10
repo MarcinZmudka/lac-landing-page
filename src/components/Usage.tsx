@@ -2,7 +2,7 @@ import { Card, CardDescription, CardHeader, CardTitle } from "./ui/card";
 
 export const Usage = () => {
   return (
-    <section className="container py-24 sm:py-32" id="usage">
+    <section className="container py-8 sm:py-32" id="usage">
       <div className="flex flex-col gap-8 place-items-center">
         <h2 className="text-3xl md:text-4xl font-bold">
           Flexible{" "}
