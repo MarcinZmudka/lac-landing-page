@@ -17,7 +17,9 @@ export const Hero = () => {
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
           Audit, Verify, and Secure Dependencies with{" "}
-          <span className="text-black font-bold">License Auditor</span>
+          <span className="text-black dark:text-white font-bold">
+            License Auditor
+          </span>
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
@@ -36,7 +38,10 @@ export const Hero = () => {
           </a>
         </div>
       </div>
-      <img src="/logo.svg" alt="logo" />
+      <div className="relative">
+        <img src="/logo.svg" alt="logo" />
+        <div className="shadow"></div>
+      </div>
     </section>
   );
 };
