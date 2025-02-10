@@ -6,7 +6,7 @@ import { Explanations } from "./components/Explanation";
 import { Usage } from "./components/Usage";
 import { PackageManagers } from "./components/PackageManagers";
 import { Parameters } from "./components/Parameters";
-import { About } from "./components/About";
+import { Created } from "./components/Created";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Usage />
       <Parameters />
       <PackageManagers />
-      <About />
+      <Created />
       <ScrollToTop />
     </>
   );

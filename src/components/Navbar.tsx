@@ -35,10 +35,10 @@ const routeList: RouteProps[] = [
     href: "#packageManagers",
     label: "Package Managers",
   },
-  {
-    href: "#about",
-    label: "Brainhub",
-  },
+  // {
+  //   href: "#about",
+  //   label: "Brainhub",
+  // },
 ];
 
 export const Navbar = () => {
