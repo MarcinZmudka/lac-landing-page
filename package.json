@@ -1,12 +1,12 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "license-auditor-landing-page",
+  "description": "Landing page for License Auditor",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
+    "name": "Marcin Żmudka",
+    "email": "marcin.zmudka@brainhub.pl",
+    "url": "https://brainhub.eu"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "keywords": [
     "react",
     "typescript",
